@@ -1,34 +1,69 @@
 ----item----
 version: 1
-id: {F4EE4D1F-F997-4C40-A9C6-FADB28628096}
+id: {2DBCB71A-95CE-49E3-8938-48228907B938}
 database: master
-path: /sitecore/templates/Modules/PublishHistory/_LastPublished
-parent: {CC3B5FF5-0263-434A-9648-E2F7CF9B0AE1}
-name: _LastPublished
+path: /sitecore/templates/Modules/SitecoreFundamentals/PublishHistory/_LastPublished/Statistics/LastPublished
+parent: {D0AA581D-3F78-44F8-9A3B-EE71A121160E}
+name: LastPublished
 master: {00000000-0000-0000-0000-000000000000}
-template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
-templatekey: Template
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
 created: 20220114T191309Z
 
 ----field----
-field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
-name: __Base template
-key: __base template
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 8
+
+Datetime
+----field----
+field: {BE351A73-FCB0-4213-93FA-C302D8AB4F51}
+name: Shared
+key: shared
 content-length: 0
 
 
+----field----
+field: {39847666-389D-409B-95BD-F2016F11EED5}
+name: Unversioned
+key: unversioned
+content-length: 0
+
+
+----field----
+field: {9CD5874F-0EED-481C-8E75-AE162E613B59}
+name: Exclude From Text Search
+key: exclude from text search
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+900
 ----version----
 language: da
 version: 1
-revision: c0e69b19-86e9-427c-8476-b59e5e6fc3f1
+revision: 9d579b65-28a2-47c7-b47d-b7aca1383d4f
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 12
+
+Opdateret af
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 12
+content-length: 14
 
-Statistikker
+__Opdateret af
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -42,7 +77,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190328T131344Z
+20190328T131441Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +91,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c0e69b19-86e9-427c-8476-b59e5e6fc3f1
+9d579b65-28a2-47c7-b47d-b7aca1383d4f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190328T131344Z
+20190328T131441Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -74,15 +109,22 @@ sitecore\Admin
 ----version----
 language: de-DE
 version: 1
-revision: cda4d32c-d7e6-46fc-8ca1-642ae46b244a
+revision: 622afa5f-03c7-4639-bb8e-eafe9c1cc244
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 16
+
+Aktualisiert von
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 9
+content-length: 18
 
-Statistik
+__Aktualisiert von
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -96,7 +138,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190328T132415Z
+20190328T132601Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -110,14 +152,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cda4d32c-d7e6-46fc-8ca1-642ae46b244a
+622afa5f-03c7-4639-bb8e-eafe9c1cc244
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190328T132415Z
+20190328T132601Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -128,15 +170,22 @@ sitecore\Admin
 ----version----
 language: en
 version: 1
-revision: 88d6282d-6925-4245-ab3b-64f70eb84e6a
+revision: 8af1f6a5-f8cc-4abb-ba15-3c22dac87bb4
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 14
+
+Last Published
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20060623T195859Z
+20170126T043318Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -150,14 +199,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-88d6282d-6925-4245-ab3b-64f70eb84e6a
+8af1f6a5-f8cc-4abb-ba15-3c22dac87bb4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20220322T142255Z
+20220322T142253Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -168,15 +217,22 @@ sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: f845e6bb-3016-4777-9838-ab99a206f4cb
+revision: 406f129c-1941-4766-a242-76005cf524de
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 18
+
+更新者 (__Updated by)
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 2
+content-length: 18
 
-統計
+更新者 (__Updated by)
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -190,7 +246,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190328T133834Z
+20190328T133914Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -204,14 +260,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f845e6bb-3016-4777-9838-ab99a206f4cb
+406f129c-1941-4766-a242-76005cf524de
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190328T133834Z
+20190328T133914Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -222,15 +278,22 @@ sitecore\Admin
 ----version----
 language: zh-CN
 version: 1
-revision: cfc87830-4c00-4c80-9492-181fc9156b21
+revision: 83f5aa73-0fb1-4ea9-bc31-1ce66933f4fb
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 3
+
+更新者
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 2
+content-length: 5
 
-统计
+__更新者
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -244,7 +307,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190328T134710Z
+20190328T134815Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -258,14 +321,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cfc87830-4c00-4c80-9492-181fc9156b21
+83f5aa73-0fb1-4ea9-bc31-1ce66933f4fb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190328T134710Z
+20190328T134815Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -7,7 +7,7 @@ using Sitecore.Publishing.Pipelines.PublishItem;
 using System;
 using System.Linq;
 
-namespace PublishHistory.Pipelines
+namespace SitecoreFundamentals.PublishHistory.Pipelines
 {
     public class SetPublishDates : PublishItemProcessor
     {
@@ -29,7 +29,7 @@ namespace PublishHistory.Pipelines
 
                 if (item == null)
                 {
-                    Log.Error($"{Settings.GetSetting("Sitecore.Feature.PublishHistory.LogPrefix")} Item not found with ID {context.ItemId} ", this);
+                    Log.Error($"{Settings.GetSetting("SitecoreFundamentals.PublishHistory.LogPrefix")} Item not found with ID {context.ItemId} ", this);
                     return;
                 }
 
@@ -47,7 +47,7 @@ namespace PublishHistory.Pipelines
                             var itemUpdatedBy = item[Constants.Templates.Sections.Statistics.UpdatedBy];
                             var updatedBy = !string.IsNullOrWhiteSpace(itemUpdatedBy) ? itemUpdatedBy : "Unknown";
 
-                            publishedByValue = $"{Settings.GetSetting("Sitecore.Feature.PublishHistory.FieldPrefix")}{updatedBy}";
+                            publishedByValue = $"{Settings.GetSetting("SitecoreFundamentals.PublishHistory.FieldPrefix")}{updatedBy}";
                         }
 
                         item[Constants.Templates.PublishHistory.Fields.LastPublished] = DateUtil.ToIsoDate(DateTime.Now);
@@ -58,7 +58,7 @@ namespace PublishHistory.Pipelines
             }
             catch (Exception ex)
             {
-                Log.Error($"{Settings.GetSetting("Sitecore.Feature.PublishHistory.LogPrefix")} {ex}", this);
+                Log.Error($"{Settings.GetSetting("SitecoreFundamentals.PublishHistory.LogPrefix")} {ex}", this);
             }
         }
     }

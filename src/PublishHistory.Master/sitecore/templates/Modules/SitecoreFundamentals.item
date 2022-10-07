@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {CC3B5FF5-0263-434A-9648-E2F7CF9B0AE1}
+id: {D584D7E8-B9EC-4FEB-803D-74D4C2E33E17}
 database: master
-path: /sitecore/templates/Modules/PublishHistory
+path: /sitecore/templates/Modules/SitecoreFundamentals
 parent: {01EFC04D-EFB3-4EE5-AFA7-06CCEF741189}
-name: PublishHistory
+name: SitecoreFundamentals
 master: {00000000-0000-0000-0000-000000000000}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 templatekey: Folder
-created: 20220112T161427Z
+created: 20220325T134052Z
 
 ----version----
 language: en

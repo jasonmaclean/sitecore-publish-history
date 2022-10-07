@@ -1,4 +1,4 @@
-﻿namespace PublishHistory.Constants
+﻿namespace SitecoreFundamentals.PublishHistory.Constants
 {
     public static class Templates
     {
@@ -12,7 +12,7 @@
 
         public static class PublishHistory
         {
-            public static readonly string ID = "{F4EE4D1F-F997-4C40-A9C6-FADB28628096}";
+            public const string ID = "{F4EE4D1F-F997-4C40-A9C6-FADB28628096}";
             public static class Fields
             {
                 public const string LastPublished = "{2DBCB71A-95CE-49E3-8938-48228907B938}";
