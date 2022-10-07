@@ -1,48 +1,69 @@
 ----item----
 version: 1
-id: {D0AA581D-3F78-44F8-9A3B-EE71A121160E}
+id: {513EE4A7-BB8C-49BD-A5A9-3DB6F9D5666E}
 database: master
-path: /sitecore/templates/Modules/PublishHistory/_LastPublished/Statistics
-parent: {F4EE4D1F-F997-4C40-A9C6-FADB28628096}
-name: Statistics
+path: /sitecore/templates/Modules/SitecoreFundamentals/PublishHistory/_LastPublished/Statistics/LastPublishedBy
+parent: {D0AA581D-3F78-44F8-9A3B-EE71A121160E}
+name: LastPublishedBy
 master: {00000000-0000-0000-0000-000000000000}
-template: {E269FBB5-3750-427A-9149-7AA950B49301}
-templatekey: Template section
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
 created: 20220114T191309Z
 
 ----field----
-field: {E2E2B75D-A2F7-4075-BDE2-D13306E9E350}
-name: Collapsed by Default
-key: collapsed by default
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 16
+
+Single-Line Text
+----field----
+field: {BE351A73-FCB0-4213-93FA-C302D8AB4F51}
+name: Shared
+key: shared
+content-length: 0
+
+
+----field----
+field: {39847666-389D-409B-95BD-F2016F11EED5}
+name: Unversioned
+key: unversioned
+content-length: 0
+
+
+----field----
+field: {9CD5874F-0EED-481C-8E75-AE162E613B59}
+name: Exclude From Text Search
+key: exclude from text search
 content-length: 1
 
 1
 ----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 29
-
-Business/16x16/line-chart.png
-----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
-content-length: 6
+content-length: 3
 
-999999
+910
 ----version----
 language: da
 version: 1
-revision: 821ec2b0-5a42-4721-9d50-17d729760115
+revision: 9d579b65-28a2-47c7-b47d-b7aca1383d4f
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 12
+
+Opdateret af
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 12
+content-length: 14
 
-Statistikker
+__Opdateret af
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -56,7 +77,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190328T131438Z
+20190328T131441Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -70,14 +91,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-821ec2b0-5a42-4721-9d50-17d729760115
+9d579b65-28a2-47c7-b47d-b7aca1383d4f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190328T131438Z
+20190328T131441Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -88,15 +109,22 @@ sitecore\Admin
 ----version----
 language: de-DE
 version: 1
-revision: b1c5613e-1def-4807-8e2b-6d41130f8c01
+revision: 622afa5f-03c7-4639-bb8e-eafe9c1cc244
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 16
+
+Aktualisiert von
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 9
+content-length: 18
 
-Statistik
+__Aktualisiert von
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -110,7 +138,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190328T132558Z
+20190328T132601Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -124,14 +152,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b1c5613e-1def-4807-8e2b-6d41130f8c01
+622afa5f-03c7-4639-bb8e-eafe9c1cc244
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190328T132558Z
+20190328T132601Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -142,29 +170,43 @@ sitecore\Admin
 ----version----
 language: en
 version: 1
-revision: f7965159-8bf2-4656-827d-f8c64536ed08
+revision: db8d4a7b-adc0-4d33-88ef-c8c3529842d8
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 17
+
+Last Published By
+----field----
+field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
+name: __Short description
+key: __short description
+content-length: 132
+
+The User who manually published, or finalized a Workflow that had a publish step in it. "Auto" are instance of scheduled publishing.
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20220322T142253Z
+20170126T043318Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
 key: __created by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-f7965159-8bf2-4656-827d-f8c64536ed08
+db8d4a7b-adc0-4d33-88ef-c8c3529842d8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
@@ -182,15 +224,22 @@ sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: eaa22e4b-ab89-4b10-a969-b85a59e1968b
+revision: 406f129c-1941-4766-a242-76005cf524de
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 18
+
+更新者 (__Updated by)
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 2
+content-length: 18
 
-統計
+更新者 (__Updated by)
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -204,7 +253,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190328T133912Z
+20190328T133914Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -218,14 +267,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-eaa22e4b-ab89-4b10-a969-b85a59e1968b
+406f129c-1941-4766-a242-76005cf524de
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190328T133912Z
+20190328T133914Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -236,15 +285,22 @@ sitecore\Admin
 ----version----
 language: zh-CN
 version: 1
-revision: 9d4c5b79-fe65-413d-997c-d3d73293f79d
+revision: 83f5aa73-0fb1-4ea9-bc31-1ce66933f4fb
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 3
+
+更新者
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 2
+content-length: 5
 
-统计
+__更新者
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -258,7 +314,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190328T134809Z
+20190328T134815Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -272,14 +328,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9d4c5b79-fe65-413d-997c-d3d73293f79d
+83f5aa73-0fb1-4ea9-bc31-1ce66933f4fb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190328T134809Z
+20190328T134815Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
