@@ -57,11 +57,11 @@
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
-    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
-    <BuildWebDeploy>False</BuildWebDeploy>
+    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <BuildWebDeploy>True</BuildWebDeploy>
     <WebDeployPackageCodeAndItemOptions>CodeAndItems</WebDeployPackageCodeAndItemOptions>
     <WebDeployPackageName />
-    <WebDeployAppendDateAndTimeToPackageName>False</WebDeployAppendDateAndTimeToPackageName>
+    <WebDeployAppendDateAndTimeToPackageName>True</WebDeployAppendDateAndTimeToPackageName>
     <ContinueOnItemDeployError>False</ContinueOnItemDeployError>
     <SitecoreWebUrl>https://scdemo.mnp.ca/</SitecoreWebUrl>
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
